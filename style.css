@@ -2,6 +2,45 @@
     box-sizing: border-box;
 }
 
+/* ON-DEMAND DEMO */
+.demo-launcher {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 60px 24px;
+}
+
+.demo-launcher h1 {
+    font-size: clamp(30px, 6vw, 48px);
+}
+
+.demo-launcher p {
+    color: #c9d1d9;
+    line-height: 1.7;
+}
+
+.demo-launcher .intro {
+    margin-top: 48px;
+    color: #58a6ff;
+}
+
+#demo-status {
+    padding: 20px;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    background: #161b22;
+}
+
+.demo-launcher .btn {
+    display: inline-block;
+    font: inherit;
+    cursor: pointer;
+    border: 0;
+}
+
+.demo-launcher [hidden] {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
